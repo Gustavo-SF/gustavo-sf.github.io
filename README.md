@@ -1,2 +1,3 @@
-# gustavo-sf.github.io
-Personal Website
+# Diving into Code and Curiosity
+
+My own personal Website.
