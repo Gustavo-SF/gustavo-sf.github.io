@@ -1,0 +1,5 @@
+*.original.md
+.DS_Store
+CLAUDE.md
+.claude
+docs

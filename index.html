@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Curious Diver</title>
-    <link href="./resources/main.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A personal archive of software, AI, ideas, and things worth keeping." />
+    <meta name="keywords" content="tech, AI, software, science, general knowledge, journal, archive" />
+    <meta name="author" content="Gustavo" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <title>Blueprint Archive</title>
+    <link href="./resources/main.css?v=3" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        <h1 id="logo">Diving into Code and Curiosity</h1>
+        <a href="index.html" id="logo">Blueprint Archive</a>
         <ul class="nav-links">
           <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="posts/tech.html">Tech</a></li>
+          <!-- <li class="nav-link"><a href="posts/field-notes.html">Field Notes</a></li> -->
         </ul>
       </nav>
     </header>
     <main>
-      <section id="hero">
-        <h2>Curious Diver</h2>
-        <p>Curious Diver is a blog about diving into code and curiosity. We explore the world of web development, programming, and technology.</p>
+      <section class="intro">
+        <h1>Blueprint Archive</h1>
+        <p class="tagline">A personal archive of software, AI, ideas, and things worth keeping.</p>
       </section>
-      <section id="blog">
-        <h2>Latest Posts</h2>
-        <article class="post">
-          <h3>Learning to Code</h3>
-          <p>Curious Diver is a blog about diving into code and curiosity. We explore the world of web development, programming, and technology.</p>
-          <a href="post.html">Read More</a>
-        </article>
+      <section class="sections-overview">
+        <div class="section-card">
+          <h2>Tech</h2>
+          <p>Software and AI posts, build logs, architecture decisions, and technical mini-essays.</p>
+          <a href="posts/tech.html">Browse Tech &rarr;</a>
+        </div>
+        <!-- <div class="section-card">
+          <h2>Field Notes</h2>
+          <p>General knowledge, science, curiosities, personal reflections, and interesting ideas.</p>
+          <a href="posts/field-notes.html">Browse Field Notes &rarr;</a>
+        </div> -->
       </section>
     </main>
+    <footer>
+      <p>&copy; 2026 Blueprint Archive</p>
+    </footer>
   </body>
 </html>

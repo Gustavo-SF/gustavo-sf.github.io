@@ -1,3 +1,3 @@
-# Diving into Code and Curiosity
+# Blueprint Archives
 
 My own personal Website.
